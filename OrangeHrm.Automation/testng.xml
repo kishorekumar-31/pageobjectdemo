@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="1" name="OrangeHrmAutomation" annotations="JDK" parallel="tests"><test name="orangehrm_login test">
+<classes>
+<class name="TestCases.LoginpageTest"/>
+</classes>
+</test>
+<test name="Addnewuser test">
+<classes>
+<class name="TestCases.Add_newuser_test"/>
+</classes>
+</test>
+</suite>
